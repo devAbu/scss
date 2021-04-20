@@ -6,4 +6,25 @@ p {
 .content ul li a {
   text-decoration: none;
 }
+
+.content .btn-1 {
+  border-radius: 0.35em;
+  background-color: #0390bb;
+  display: inline-block;
+  border: none;
+  padding: 1em 2em;
+  color: white;
+  -webkit-box-shadow: 3px 3px 5px dimgray;
+          box-shadow: 3px 3px 5px dimgray;
+}
+
+.content .btn-2 {
+  border-radius: 0.35em;
+  background-color: #0390bb;
+  display: inline-block;
+  border: none;
+  padding: 1em 2em;
+  color: black;
+  background-color: red;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,14 @@
 $theme-color: rgb(3, 144, 187);
 
+@mixin btn($font-color: white) {
+  border-radius: 0.35em;
+  background-color: $theme-color;
+  display: inline-block;
+  border: none;
+  padding: 1em 2em;
+  color: $font-color;
+}
+
 h1,
 p {
   color: $theme-color;
@@ -12,5 +21,15 @@ p {
         text-decoration: none;
       }
     }
+  }
+
+  .btn-1 {
+    @include btn();
+    box-shadow: 3px 3px 5px rgb(105, 105, 105);
+  }
+
+  .btn-2 {
+    @include btn(black);
+    background-color: red;
   }
 }
