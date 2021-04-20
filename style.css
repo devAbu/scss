@@ -2,4 +2,8 @@ h1,
 p {
   color: #0390bb;
 }
+
+.content ul li a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
