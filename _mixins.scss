@@ -1,0 +1,8 @@
+@mixin btn($font-color: white) {
+  border-radius: 0.35em;
+  background-color: $theme-color;
+  display: inline-block;
+  border: none;
+  padding: 1em 2em;
+  color: $font-color;
+}
