@@ -1,3 +1,9 @@
+h2 {
+  color: red;
+  background-color: yellow;
+  content: "map has the key a";
+}
+
 body {
   /* background-color: darken($bg-color, 15%); */
   /* background-color: lighten($bg-color, 15%); */

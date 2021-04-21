@@ -5,6 +5,37 @@
   @return ($a * 2);
 }
 
+$map_name: (
+  a: red,
+  b: blue,
+);
+
+$map-one: (
+  color1: blue,
+  color2: red,
+);
+
+$map-two: (
+  color3: yellow,
+  color4: green,
+);
+
+$merged-map: map-merge(
+  $map1: $map-one,
+  $map2: $map-two,
+);
+
+h2 {
+  color: map-get($map: $map_name, $key: a);
+  background-color: map-get($map: $merged-map, $key: color3);
+
+  @if map-has-key($map: $map_name, $key: a) {
+    content: "map has the key a";
+  } @else {
+    content: "map does not have the key";
+  }
+}
+
 body {
   /* background-color: darken($bg-color, 15%); */
   /* background-color: lighten($bg-color, 15%); */
