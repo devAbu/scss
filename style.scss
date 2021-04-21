@@ -38,20 +38,23 @@ p {
   }
 }
 
+.common {
+  height: double(75px);
+  width: (100% / 2);
+}
+
 .container {
   width: 100%;
 
   .left {
     float: left;
     background-color: red;
-    height: 100px;
-    width: (100% / 2);
+    @extend .common;
   }
 
   .right {
     float: right;
     background-color: green;
-    height: double(75px);
-    width: (100% / 2);
+    @extend .common;
   }
 }

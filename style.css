@@ -36,6 +36,11 @@ p {
   background-color: red;
 }
 
+.common, .container .left, .container .right {
+  height: 150px;
+  width: 50%;
+}
+
 .container {
   width: 100%;
 }
@@ -43,14 +48,10 @@ p {
 .container .left {
   float: left;
   background-color: red;
-  height: 100px;
-  width: 50%;
 }
 
 .container .right {
   float: right;
   background-color: green;
-  height: 150px;
-  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
