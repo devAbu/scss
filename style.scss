@@ -13,10 +13,12 @@ body {
   /* background-color: rgba($bg-color, 0.4); */
   $a: 1;
 
-  @if $a>1 {
-    background-color: red;
+  @if $a==1 and $a>0 {
+    /* != -- not equal */
+    /* $a==1 or $a>0 */
+    background-color: blue;
   } @else {
-    background-color: green;
+    background-color: grey;
   }
 }
 
