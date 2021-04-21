@@ -15,7 +15,7 @@ p {
   padding: 1em 2em;
   color: white;
   -webkit-box-shadow: 3px 3px 5px dimgray;
-          box-shadow: 3px 3px 5px dimgray;
+  box-shadow: 3px 3px 5px dimgray;
 }
 
 .content .btn-2 {
@@ -42,7 +42,7 @@ p {
 .container .right {
   float: right;
   background-color: green;
-  height: 100px;
+  height: 50px;
   width: 50%;
 }
 /*# sourceMappingURL=style.css.map */

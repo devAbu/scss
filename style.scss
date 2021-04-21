@@ -1,6 +1,10 @@
 @import "colors";
 @import "mixins";
 
+@function double($a) {
+  @return ($a * 2);
+}
+
 h1,
 p {
   color: $theme-color;
@@ -39,7 +43,7 @@ p {
   .right {
     float: right;
     background-color: green;
-    height: 100px;
+    height: double(75px);
     width: (100% / 2);
   }
 }
