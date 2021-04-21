@@ -3,7 +3,8 @@ body {
   /* background-color: lighten($bg-color, 15%); */
   /* background-color: saturate($bg-color, 15%); */
   /* background-color: desaturate($bg-color, 15%); */
-  background-color: rgba(173, 20, 30, 0.4);
+  /* background-color: rgba($bg-color, 0.4); */
+  background-color: green;
 }
 
 h1,
