@@ -1,3 +1,11 @@
+body {
+  /* background-color: darken($bg-color, 15%); */
+  /* background-color: lighten($bg-color, 15%); */
+  /* background-color: saturate($bg-color, 15%); */
+  /* background-color: desaturate($bg-color, 15%); */
+  background-color: rgba(173, 20, 30, 0.4);
+}
+
 h1,
 p {
   color: #0390bb;
@@ -15,7 +23,7 @@ p {
   padding: 1em 2em;
   color: white;
   -webkit-box-shadow: 3px 3px 5px dimgray;
-  box-shadow: 3px 3px 5px dimgray;
+          box-shadow: 3px 3px 5px dimgray;
 }
 
 .content .btn-2 {
@@ -42,7 +50,7 @@ p {
 .container .right {
   float: right;
   background-color: green;
-  height: 50px;
+  height: 150px;
   width: 50%;
 }
 /*# sourceMappingURL=style.css.map */

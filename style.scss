@@ -5,6 +5,14 @@
   @return ($a * 2);
 }
 
+body {
+  /* background-color: darken($bg-color, 15%); */
+  /* background-color: lighten($bg-color, 15%); */
+  /* background-color: saturate($bg-color, 15%); */
+  /* background-color: desaturate($bg-color, 15%); */
+  background-color: rgba($bg-color, 0.4);
+}
+
 h1,
 p {
   color: $theme-color;
