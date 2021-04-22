@@ -25,9 +25,19 @@ $merged-map: map-merge(
   $map2: $map-two,
 );
 
+$name: "Abu is a programmer";
+
 h2 {
   color: map-get($map: $map_name, $key: a);
   background-color: map-get($map: $merged-map, $key: color3);
+  content: $name;
+  /* content: unquote($name); */
+  /* content: quote($name); */
+  /* content: str-length($name); */
+  /* content: str-insert($name, "T", 5); */
+  /* content: str-index($name, "programmer); */
+  /* content: to-upper-case($name); */
+  /* content: to-lower-case($name); */
 
   @if map-has-key($map: $map_name, $key: a) {
     content: "map has the key a";

@@ -1,6 +1,14 @@
 h2 {
   color: red;
   background-color: yellow;
+  content: "Abu is a programmer";
+  /* content: unquote($name); */
+  /* content: quote($name); */
+  /* content: str-length($name); */
+  /* content: str-insert($name, "T", 5); */
+  /* content: str-index($name, "programmer); */
+  /* content: to-upper-case($name); */
+  /* content: to-lower-case($name); */
   content: "map has the key a";
 }
 
