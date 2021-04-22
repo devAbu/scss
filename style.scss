@@ -121,3 +121,10 @@ $menu: (home, contact, about, blog);
     background: url("../img/#{$item}.png");
   }
 }
+
+$var: "demo";
+$new-color: red;
+
+.menu-#{$var} {
+  color: $new-color;
+}
