@@ -88,7 +88,12 @@ p {
   }
 }
 
-.common {
+/* .common {
+  height: double(75px);
+  width: (100% / 2);
+} */
+
+%common {
   height: double(75px);
   width: (100% / 2);
 }
@@ -99,13 +104,13 @@ p {
   .left {
     float: left;
     background-color: red;
-    @extend .common;
+    @extend %common;
   }
 
   .right {
     float: right;
     background-color: green;
-    @extend .common;
+    @extend %common;
   }
 }
 
