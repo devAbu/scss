@@ -108,3 +108,11 @@ p {
     @extend .common;
   }
 }
+
+$menu: (home, contact, about, blog);
+
+@each $item in $menu {
+  .#{$item} {
+    background: url("../img/#{$item}.png");
+  }
+}

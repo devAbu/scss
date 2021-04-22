@@ -71,4 +71,20 @@ p {
   float: right;
   background-color: green;
 }
+
+.home {
+  background: url("../img/home.png");
+}
+
+.contact {
+  background: url("../img/contact.png");
+}
+
+.about {
+  background: url("../img/about.png");
+}
+
+.blog {
+  background: url("../img/blog.png");
+}
 /*# sourceMappingURL=style.css.map */
