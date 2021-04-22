@@ -95,4 +95,40 @@ p {
 .menu-demo {
   color: red;
 }
+
+.a-1 {
+  height: 50px;
+  width: 100px;
+  background-color: #e6e600;
+}
+
+.a-2 {
+  height: 50px;
+  width: 200px;
+  background-color: #cccc00;
+}
+
+.a-3 {
+  height: 50px;
+  width: 300px;
+  background-color: #b3b300;
+}
+
+.a-4 {
+  height: 50px;
+  width: 400px;
+  background-color: #999900;
+}
+
+.a-5 {
+  height: 50px;
+  width: 500px;
+  background-color: olive;
+}
+
+.a-6 {
+  height: 50px;
+  width: 600px;
+  background-color: #666600;
+}
 /*# sourceMappingURL=style.css.map */
